@@ -70,15 +70,17 @@
                         android:id="@+id/btnGuardar"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
                         android:layout_weight="1"
-                        android:text="GUARDAR"
-                        android:layout_marginEnd="8dp" />
+                        android:onClick="Guardar"
+                        android:text="GUARDAR" />
 
                     <Button
                         android:id="@+id/btnActualizar"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:onClick="Actualizar"
                         android:text="ACTUALIZAR" />
                 </LinearLayout>
 
@@ -93,15 +95,17 @@
                         android:id="@+id/btnBuscar"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
                         android:layout_weight="1"
-                        android:text="BUSCAR"
-                        android:layout_marginEnd="8dp" />
+                        android:onClick="Buscar"
+                        android:text="BUSCAR" />
 
                     <Button
                         android:id="@+id/btnEliminar"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:onClick="Eliminar"
                         android:text="ELIMINAR" />
                 </LinearLayout>
 
@@ -109,9 +113,10 @@
                     android:id="@+id/btnListar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="LISTAR"
                     android:layout_gravity="center"
-                    android:layout_marginTop="4dp" />
+                    android:layout_marginTop="4dp"
+                    android:onClick="Listar"
+                    android:text="LISTAR" />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
