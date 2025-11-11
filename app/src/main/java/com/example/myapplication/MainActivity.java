@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void Listar(View vista)
     {
-        Intent listar = new Intent(this,Listado.class);
+        Intent listar = new Intent(this, Listado.class);
         startActivity(listar);
     }
 

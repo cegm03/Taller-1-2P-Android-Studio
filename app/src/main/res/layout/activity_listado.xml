@@ -7,10 +7,11 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Button"
+        android:layout_marginTop="40dp"
+        android:onClick="Regresar"
+        android:text="Regresar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -31,20 +32,14 @@
             android:layout_height="wrap_content">
 
             <TableLayout
-                android:id="@+id/table_listado"
+                android:id="@+id/tblistado"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:stretchColumns="*">
 
-                <!-- Fila de ejemplo (puedes borrarla y llenarla desde el código) -->
-                <TableRow
+            <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" >
-
-                    <TextView android:padding="8dp" android:text="Celda 1"/>
-                    <TextView android:padding="8dp" android:text="Celda 2"/>
-                    <TextView android:padding="8dp" android:text="Celda 3"/>
-
                 </TableRow>
 
             </TableLayout>
